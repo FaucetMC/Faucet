@@ -1,0 +1,14 @@
+name: "Faucet"
+main: "com.faucetmc.faucet.FaucetPlugin"
+version: "${version}"
+authors: ["The FaucetMC Developers"]
+description: "The best plugin of the universe"
+api-version: "1.14"
+softdepend:
+  - "Vault"
+website: "https://faucetmc.com/"
+commands:
+  "faucet":
+    description: "The main command of faucet"
+    aliases: ["faucet-plugin"]
+    usage: "/faucet [sub command...]"
